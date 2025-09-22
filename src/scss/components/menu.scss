@@ -1,14 +1,14 @@
 .context-menu {
   display: none;
-  backdrop-filter: blur(30px);
-  background: #c8ecf3;
-  padding: 0 16px 16px 16px;
-  justify-content: end;
-  max-width: 375px;
+  background: #161313;
+  border-radius: 0 0 4px 4px;
+  padding: 30px 16px 30px 16px;
+  justify-content: center;
+  max-width: 343px;
   width: 100%;
   margin: 0 auto;
   position: fixed;
-  top: 62px;
+  top: 60px;
   left: 0;
   right: 0;
   transform: none;
@@ -24,20 +24,20 @@
 .context-nav-list {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  gap: 12px;
+  align-items: center;
+  gap: 27px;
 }
 
 .context-list-link {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  text-align: right;
-  color: #05163b;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.3;
+  color: #fff;
   transition: all 0.3s ease-in-out;
 
   &:active {
+    color: #ffc609;
   }
 }
 
