@@ -1,0 +1,91 @@
+.puzzles-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  @include media(desktop) {
+  }
+}
+
+.puzzles-container {
+  @include media(desktop) {
+  }
+}
+
+.puzzles-content-wrapper {
+  @include media(desktop) {
+    display: flex;
+    gap: 32px;
+  }
+}
+
+.puzzles-top-wrapper {
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    background-image: url(../img/puzzles/puzzles-line-desk.png);
+    background-repeat: no-repeat;
+    background-position: bottom 60px center;
+    background-size: auto;
+    min-width: 544px;
+    margin-bottom: 0;
+  }
+}
+
+.puzzles-title {
+  @include media(desktop) {
+  }
+}
+
+.puzzles-subtitle {
+  margin-bottom: 0;
+
+  @include media(desktop) {
+  }
+}
+
+.puzzles-bottom-wrapper {
+  padding-bottom: 38px;
+  background-image: url(../img/puzzles/puzzles-line-mob.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: auto;
+
+  @include media(desktop) {
+    padding-bottom: 0;
+    background-image: none;
+  }
+}
+
+.puzzles-bottom-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.puzzles-bottom-list-item {
+  display: flex;
+  gap: 8px;
+
+  @include media(desktop) {
+  }
+}
+
+.star-icon {
+  @include media(desktop) {
+  }
+}
+
+.puzzles-bottom-list-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
