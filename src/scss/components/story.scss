@@ -1,0 +1,151 @@
+.story-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  @include media(desktop) {
+  }
+}
+
+.story-container {
+  @include media(desktop) {
+  }
+}
+
+.story-top-wrapper {
+  padding-bottom: 38px;
+  background-image: url(../img/story/story-line-mob.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: auto;
+
+  @include media(desktop) {
+    padding-bottom: 62px;
+    background-image: url(../img/story/story-line-desk.png);
+    background-position: bottom left;
+    position: relative;
+  }
+}
+
+.story-title {
+  @include media(desktop) {
+  }
+}
+
+.story-subtitle {
+  @include media(desktop) {
+  }
+}
+
+.story-top-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    position: absolute;
+    top: 0;
+    right: 75px;
+    margin: 0;
+  }
+}
+
+.story-top-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #b1a5a5;
+
+  @include media(desktop) {
+    font-size: 18px;
+    max-width: 544px;
+  }
+}
+
+.story-bottom-wrapper {
+  padding-top: 40px;
+  padding-bottom: 38px;
+  background-image: url(../img/story/story-line-mob.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: auto;
+
+  @include media(desktop) {
+    padding-bottom: 62px;
+    background-image: url(../img/story/story-line-desk.png);
+    background-position: bottom right;
+    position: relative;
+  }
+}
+
+.story-bottom-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    position: absolute;
+    top: 40px;
+    left: 88px;
+    margin: 0;
+  }
+}
+
+.story-bottom-text-wrapper {
+  @include media(desktop) {
+    max-width: 544px;
+    margin-left: auto;
+  }
+}
+
+.story-bottom-list-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.story-bottom-list {
+  list-style-type: disc;
+  padding-left: 30px;
+  margin-bottom: 24px;
+  color: #b1a5a5;
+
+  @include media(desktop) {
+  }
+}
+
+.story-bottom-list-item {
+  @include media(desktop) {
+  }
+}
+
+.story-bottom-list-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #b1a5a5;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.story-bottom-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
