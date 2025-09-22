@@ -1,0 +1,121 @@
+.hero-section {
+  padding-top: 132px;
+  padding-bottom: 85px;
+  background-image: url(../img/hero/hero-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  max-width: 375px;
+  margin: 0 auto;
+  position: relative;
+
+  @include media(desktop) {
+    padding-top: 208px;
+    padding-bottom: 138px;
+    background-image: url(../img/hero/hero-bg-desk.jpg);
+    max-width: 1440px;
+  }
+}
+
+.hero-container {
+}
+
+.hero-content-wrapper {
+}
+
+.hero-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.5;
+  text-align: center;
+  color: #f9fafb;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+}
+
+.hero-br {
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.hero-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+  color: #f9fafb;
+  margin-bottom: 168px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    max-width: 746px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 216px;
+  }
+}
+
+.hero-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.hero-book-link {
+  background: #2563eb;
+  border-radius: 16px;
+  padding: 12px 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #f9fafb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+    padding: 16px 24px;
+    font-size: 24px;
+    max-width: 344px;
+  }
+}
+
+.hero-contact-link {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #2563eb;
+  border-radius: 16px;
+  padding: 12px 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #f9fafb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+    padding: 16px 24px;
+    font-size: 24px;
+    max-width: 344px;
+  }
+}
